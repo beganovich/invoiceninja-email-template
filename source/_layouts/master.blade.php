@@ -7,7 +7,5 @@
         <title>{{ $page->siteTitle }}</title>
         <link rel="stylesheet" href="{{ mix('/css/main.css') }}">
     </head>
-    <body class="antialiased font-sans">
-        @yield('content')
-    </body>
+    @yield('content')
 </html>
